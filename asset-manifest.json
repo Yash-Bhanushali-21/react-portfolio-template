@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Yash-Bhanushali-21/react-portfolio-template/static/css/main.d80d13cf.css",
-    "main.js": "/Yash-Bhanushali-21/react-portfolio-template/static/js/main.4c05f1d6.js",
-    "static/media/mock5.png": "/Yash-Bhanushali-21/react-portfolio-template/static/media/mock5.c9b5f54e8517e13fc897.png",
-    "static/media/self.png": "/Yash-Bhanushali-21/react-portfolio-template/static/media/self.a91718689938ff4d9481.png",
-    "static/media/mock2.png": "/Yash-Bhanushali-21/react-portfolio-template/static/media/mock2.e8ed2c07928dfdc15a79.png",
-    "static/media/mock1.png": "/Yash-Bhanushali-21/react-portfolio-template/static/media/mock1.e11f6103909e8c52d703.png",
-    "static/media/mock3.png": "/Yash-Bhanushali-21/react-portfolio-template/static/media/mock3.8624cffbb7ae4e742c4c.png",
-    "static/media/mock4.png": "/Yash-Bhanushali-21/react-portfolio-template/static/media/mock4.2b2ba794bc5cd75eb2c1.png",
-    "index.html": "/Yash-Bhanushali-21/react-portfolio-template/index.html",
-    "main.d80d13cf.css.map": "/Yash-Bhanushali-21/react-portfolio-template/static/css/main.d80d13cf.css.map",
-    "main.4c05f1d6.js.map": "/Yash-Bhanushali-21/react-portfolio-template/static/js/main.4c05f1d6.js.map"
+    "main.css": "/react-portfolio-template/static/css/main.d80d13cf.css",
+    "main.js": "/react-portfolio-template/static/js/main.1b9e19f2.js",
+    "static/media/mock5.png": "/react-portfolio-template/static/media/mock5.c9b5f54e8517e13fc897.png",
+    "static/media/self.png": "/react-portfolio-template/static/media/self.a91718689938ff4d9481.png",
+    "static/media/mock2.png": "/react-portfolio-template/static/media/mock2.e8ed2c07928dfdc15a79.png",
+    "static/media/mock1.png": "/react-portfolio-template/static/media/mock1.e11f6103909e8c52d703.png",
+    "static/media/mock3.png": "/react-portfolio-template/static/media/mock3.8624cffbb7ae4e742c4c.png",
+    "static/media/mock4.png": "/react-portfolio-template/static/media/mock4.2b2ba794bc5cd75eb2c1.png",
+    "index.html": "/react-portfolio-template/index.html",
+    "main.d80d13cf.css.map": "/react-portfolio-template/static/css/main.d80d13cf.css.map",
+    "main.1b9e19f2.js.map": "/react-portfolio-template/static/js/main.1b9e19f2.js.map"
   },
   "entrypoints": [
     "static/css/main.d80d13cf.css",
-    "static/js/main.4c05f1d6.js"
+    "static/js/main.1b9e19f2.js"
   ]
 }
