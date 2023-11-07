@@ -4,7 +4,7 @@ import Navbar from "./Navbar";
 import Home from "./home/Home";
 import About from "./about/About";
 import Portfolio from "./portfolio/Portfolio";
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, redirect } from "react-router-dom";
 import { Box, Grid } from "@mui/material";
 
 export default function BaseLayout() {
@@ -41,9 +41,23 @@ export default function BaseLayout() {
         </Grid>
         <Grid item flexGrow={1}>
           <Routes>
-            <Route exact path={"/home"} element={<Home />} />
-            <Route exact path={"/about"} element={<About />} />
-            <Route exact path={"/portfolio"} element={<Portfolio />} />
+            <Route
+              exact
+              path={"/react-portfolio-template/home"}
+              element={<Home />}
+            />
+            <Route
+              exact
+              path={"/react-portfolio-template/about"}
+              element={<About />}
+            />
+            <Route
+              exact
+              path={"react-portfolio-template/portfolio"}
+              element={<Portfolio />}
+            />
+            {/**adding a default fallback route */}
+            <Route path="*" element={<Home />}></Route>
           </Routes>
         </Grid>
         <Grid item>

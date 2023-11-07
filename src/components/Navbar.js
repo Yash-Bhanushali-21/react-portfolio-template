@@ -8,23 +8,23 @@ import { info } from "../info/Info";
 const links = [
   {
     name: "Home",
-    to: "/home",
+    to: "/react-portfolio-template/home",
     active: "home",
   },
   {
     name: "About Me",
-    to: "/about",
+    to: "/react-portfolio-template/about",
     active: "about",
   },
   {
     name: info.initials,
     type: "initials",
-    to: "/home",
+    to: "/react-portfolio-template/home",
     active: "home",
   },
   {
     name: "Portfolio",
-    to: "/portfolio",
+    to: "/react-portfolio-template/portfolio",
     active: "portfolio",
   },
 ];
@@ -32,7 +32,7 @@ const links = [
 export default function Navbar({ darkMode, handleClick }) {
   const location = useLocation();
   const [active, setActive] = useState(
-    location.pathname === "/home"
+    location.pathname === "/react-portfolio-template/home"
       ? "home"
       : location.pathname.slice(1, location.pathname.length)
   );
