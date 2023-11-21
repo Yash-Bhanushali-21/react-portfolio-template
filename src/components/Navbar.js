@@ -23,9 +23,9 @@ const links = [
     active: "home",
   },
   {
-    name: "Portfolio",
-    to: "/react-portfolio-template/portfolio",
-    active: "portfolio",
+    name: "Resume",
+    to: "",
+    url: "https://drive.google.com/file/d/11a0sA6zs-TImGtt0wk6yCDMBQtll6JoQ/view?usp=sharing",
   },
 ];
 
@@ -36,6 +36,10 @@ export default function Navbar({ darkMode, handleClick }) {
       ? "home"
       : location.pathname.slice(1, location.pathname.length)
   );
+
+  const openResumeInNewTab = (url) => {
+    window.open(url, "_blank");
+  };
 
   return (
     <Box component={"nav"} width={"100%"}>
@@ -57,7 +61,13 @@ export default function Navbar({ darkMode, handleClick }) {
           >
             <Link
               to={link.to}
-              onClick={() => setActive(link.active)}
+              onClick={(e) => {
+                if (link.name === "Resume") {
+                  openResumeInNewTab(link.url);
+                } else {
+                  setActive(link.active);
+                }
+              }}
               className={Style.link}
             >
               {!link.type && <p style={{ padding: "0.5rem 0" }}>{link.name}</p>}
